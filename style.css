@@ -1,0 +1,121 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Trispace', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+.donation-1 {
+    color: white;
+    background: rgba(0, 0, 0, 0.7)url(images/donation10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: darken;
+}
+
+.center-align {
+    text-align: center;
+    padding: 100px;
+}
+
+.large-text {
+    font-size: 70px;
+}
+
+.donate-button {
+    text-decoration: none;
+    background-color: rgb(233, 119, 78);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.flexible-container {
+    display: flex;
+    padding-left: 0;
+}
+
+.tk-box {
+    width: 50%;
+    margin: 50px;
+    box-shadow: 10px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+#tk-box {
+    width: 50%;
+    margin: 50px;
+    box-shadow: 10px;
+    background-color: rgb(236, 148, 148);
+    border-radius: 5px;
+    border: 2px solid red !important;
+}
+
+.flexible {
+    display: flex;
+}
+
+.flexible-1 {
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 10px;
+    border-radius: 5px;
+}
+
+#food {
+    background-color: cadetblue;
+}
+
+#shelter {
+    background-color: pink;
+}
+
+#education {
+    background-color: lightgoldenrodyellow;
+}
+
+.contribute {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding: 50px;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+input {
+    background-color: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(240, 85, 28);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+#form {
+    background-color: peachpuff;
+    padding: 60px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 3px;
+}
+
+#humble {
+    font-family: cursive;
+    color: aqua;
+}
